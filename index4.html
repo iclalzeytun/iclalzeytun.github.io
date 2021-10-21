@@ -31,10 +31,18 @@ font-size: 23px;
   <pre> <h1 style="text-align:center;"> SURVEY </pre> </h1> </pre>
   
   <pre><p1>Please enter name and surname : </p1></pre>
+<from>
+  <label for="name">name:</label><br>
+  <input type="text" name="name"> <br>
+  <label for="input1">surname:</label><br>
+  <input type="text" name="surname"> <br>
+  <input type="submit" name="submitinput">
+  <p> Choose your gender </p>
+  <input type="radio" id="female" name="test" value="FEMALE">
+  <label for="test">FEMALE</label><br>
+  <input type="radio" id="male" name="test" value="MALE">
+  <label for="test">MALE</label><br>
 
-<from action="/process.php" method="GET">
- <input type="text" name="input1">
- <input type="submit" name="submitinput">
 </form>
   
 </body>
